@@ -1,0 +1,258 @@
+/* ===========================
+   FONTES — STACK SANS HEADLINE
+   =========================== */
+@font-face {
+  font-family: 'Stack Sans Headline';
+  src: url('fonts/StackSansHeadline-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stack Sans Headline';
+  src: url('fonts/StackSansHeadline-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Stack Sans Headline', sans-serif;
+}
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #70009d;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background: #ffd90000; /* fundo amarelo opcional */
+}
+
+.hero-imagem {
+  position: absolute;
+  right: 0;          /* imagem encostada à direita */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 160%;
+  object-fit: contain;
+  opacity: 1;
+}
+
+
+/* CONTEÚDO DE TEXTO */
+.hero-texto {
+  position: absolute;
+  left: 40px;       /* distância da margem esquerda */
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;   /* coloca uma linha embaixo da outra */
+  line-height: 1;
+}
+
+/* LINHA 1 — "é lugar de" */
+.linha1 {
+  font-size: 130px;
+  font-weight: 900;
+  color: #ffd900;
+  margin-bottom: -30px; /* aproxima do CARNAVAL */
+}
+
+/* LINHA 2 — "CARNAVAL" */
+.linha2 {
+  font-size: 190px;
+  font-weight: 900;
+  color: #ffd900;
+  letter-spacing: 5px;
+
+  /* Faz o texto ocupar a largura inteira e encostar na direita */
+  width: 100vw;
+  text-align: right;
+  padding-right: 80px;
+}
+
+.custom-card,
+.custom-card .card-body {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.subtitulo {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ff00d4; /* escolha sua cor */
+  text-transform: uppercase;
+}
+
+.caixa-texto {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff; /* cor do texto */
+  padding-right: 20px;
+}
+
+.subtitulo2 {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffd900; /* escolha sua cor */
+  text-transform: uppercase;
+}
+.caixa-texto2 {
+    font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff; /* cor do texto */
+  padding-right: 20px;
+
+}
+
+.subtitulo3 {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffd900; /* escolha sua cor */
+  text-transform: uppercase;
+}
+.caixa-texto3 {
+    font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff; /* cor do texto */
+  padding-right: 20px;
+
+}
+
+.subtitulo4 {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffd900; /* escolha sua cor */
+  text-transform: uppercase;
+}
+
+.caixa-texto4 {
+    font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff; /* cor do texto */
+  padding-right: 20px;
+
+}
+
+.subtitulo5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #3aaa35; /* escolha sua cor */
+  text-transform: uppercase;
+}
+
+.subtitulo6 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #3aaa35; /* escolha sua cor */
+  text-transform: uppercase;
+}
+
+.subtitulo7 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #3aaa35; /* escolha sua cor */
+  text-transform: uppercase;
+}
+
+.subtitulo8 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #3aaa35; /* escolha sua cor */
+  text-transform: uppercase;
+}
+
+.imagem-full {
+    width: 100%;   /* ocupa toda a largura da tela */
+    height: auto;  /* mantém proporção */
+}
+
+.container-imagem {
+    margin: 0 calc(-1 * (1rem)); /* remove a margem lateral só desse elemento */
+}
+
+
+.bloco {
+  max-width: 1200px;  /* você pode ajustar esse valor */
+  margin: 0 auto;
+  padding: 0 20px;    /* espaço lateral */
+}
+
+.flourish-embed {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.flourish-embed iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+
+
+/* Footer ocupando a tela inteira */
+.footer {
+    width: 100vw;           /* ocupa a tela inteira */
+  margin-left: calc(50% - 50vw);   /* remove margens externas de containers */
+  margin-right: calc(50% - 50vw);
+  background: #31004d;
+  color: #ffd900;
+  padding: 40px 0;
+  margin-top: 30px;
+}
+
+/* Container interno */
+.footer-conteudo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+/* Títulos das colunas */
+.footer-coluna h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+/* Textos */
+.footer-coluna p {
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsivo para celular */
+@media (max-width: 768px) {
+  .footer-conteudo {
+    grid-template-columns: 1fr 1fr; /* 2 colunas no tablet */
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-conteudo {
+    grid-template-columns: 1fr; /* 1 coluna no celular */
+  }
+}
