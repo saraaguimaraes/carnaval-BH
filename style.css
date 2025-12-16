@@ -33,7 +33,7 @@ html, body {
   width: 100%;
   height: 600px;
   overflow: hidden;
-  background: #ffd90000; /* fundo amarelo opcional */
+  background: #ffd90000; 
 }
 
 .hero-imagem {
@@ -91,7 +91,7 @@ html, body {
 .caixa-texto {
   font-size: 20px;
   line-height: 1.5;
-  color: #ffffff; /* cor do texto */
+  color: #ffffff;
   padding-right: 20px;
 }
 
@@ -103,9 +103,9 @@ html, body {
 
 .credito-imagem {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.7); /* discreto */
+  color: rgba(255, 255, 255, 0.7); 
   margin-top: 6px;
-  text-align: right; /* ou left, se preferir */
+  text-align: right; 
 }
 
 .credito-imagem a {
@@ -114,12 +114,12 @@ html, body {
 }
 
 .credito-imagem a:hover {
-  color: #ffd900; /* sua cor amarela */
+  color: #ffd900; 
 }
 
 .imagem-full {
-    width: 100%;   /* ocupa toda a largura da tela */
-    height: auto;  /* mantém proporção */
+    width: 100%;   
+    height: auto;  
 }
 
 
@@ -127,13 +127,13 @@ html, body {
   font-size: 100px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ffd900; /* escolha sua cor */
+  color: #ffd900;
   text-transform: uppercase;
 }
 .caixa-texto2 {
     font-size: 20px;
   line-height: 1.5;
-  color: #ffffff; /* cor do texto */
+  color: #ffffff; 
   padding-right: 20px;
 
 }
@@ -141,7 +141,7 @@ html, body {
 .caixa-texto25 {
     font-size: 20px;
   line-height: 1.5;
-  color: #ffd900; /* cor do texto */
+  color: #ffd900; 
   padding-right: 20px;
 
 }
@@ -150,13 +150,13 @@ html, body {
   font-size: 100px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ffd900; /* escolha sua cor */
+  color: #ffd900; 
   text-transform: uppercase;
 }
 .caixa-texto3 {
     font-size: 20px;
   line-height: 1.5;
-  color: #ffffff; /* cor do texto */
+  color: #ffffff; 
   padding-right: 20px;
 
 }
@@ -165,14 +165,14 @@ html, body {
   font-size: 100px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ffd900; /* escolha sua cor */
+  color: #ffd900;
   text-transform: uppercase;
 }
 
 .caixa-texto4 {
     font-size: 20px;
   line-height: 1.5;
-  color: #ffffff; /* cor do texto */
+  color: #ffffff; 
   padding-right: 20px;
 
 }
@@ -181,7 +181,7 @@ html, body {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ff00d4; /* escolha sua cor */
+  color: #ff00d4; 
   text-transform: uppercase;
 }
 
@@ -189,7 +189,7 @@ html, body {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ff00d4; /* escolha sua cor */
+  color: #ff00d4; 
   text-transform: uppercase;
 }
 
@@ -197,7 +197,7 @@ html, body {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ff00d4; /* escolha sua cor */
+  color: #ff00d4; 
   text-transform: uppercase;
 }
 
@@ -205,7 +205,7 @@ html, body {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ff00d4; /* escolha sua cor */
+  color: #ff00d4; 
   text-transform: uppercase;
 }
 
@@ -213,9 +213,9 @@ html, body {
 
 
 .bloco {
-  max-width: 1200px;  /* você pode ajustar esse valor */
+  max-width: 1200px;  
   margin: 0 auto;
-  padding: 0 20px;    /* espaço lateral */
+  padding: 0 20px;    
 }
 
 .flourish-embed {
@@ -232,8 +232,8 @@ html, body {
 
 /* Footer ocupando a tela inteira */
 .footer {
-    width: 100vw;           /* ocupa a tela inteira */
-  margin-left: calc(50% - 50vw);   /* remove margens externas de containers */
+    width: 100vw;          
+  margin-left: calc(50% - 50vw);   
   margin-right: calc(50% - 50vw);
   background: #31004d;
   color: #ffd900;
@@ -241,7 +241,7 @@ html, body {
   margin-top: 30px;
 }
 
-/* Container interno */
+
 .footer-conteudo {
   max-width: 1200px;
   margin: 0 auto;
@@ -252,7 +252,7 @@ html, body {
   gap: 20px;
 }
 
-/* Títulos das colunas */
+
 .footer-coluna h4 {
   font-size: 14px;
   font-weight: bold;
@@ -260,23 +260,22 @@ html, body {
   text-transform: uppercase;
 }
 
-/* Textos */
+
 .footer-coluna p {
   font-size: 12px;
   margin: 0;
   line-height: 1.4;
 }
 
-/* Responsivo para celular */
 @media (max-width: 768px) {
   .footer-conteudo {
-    grid-template-columns: 1fr 1fr; /* 2 colunas no tablet */
+    grid-template-columns: 1fr 1fr; 
   }
 }
 
 @media (max-width: 500px) {
   .footer-conteudo {
-    grid-template-columns: 1fr; /* 1 coluna no celular */
+    grid-template-columns: 1fr; 
   }
 }
 
@@ -296,16 +295,16 @@ html, body {
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ff00d4; /* escolha sua cor */
+  color: #ff00d4; 
   text-transform: uppercase;
   line-height: 1.1;
-  flex: 1;    /* ocupa o espaço disponível */
+  flex: 1;    
 }
 
 
 /* IMAGEM À DIREITA */
 .imagem-chamada {
-  width: 280px;      /* controla o tamanho da imagem */
+  width: 280px;      
   height: auto;
 }
 
@@ -319,18 +318,19 @@ html, body {
 
 /* TEXTO */
 .texto-lateral {
-  flex: 1;                /* ocupa mais espaço */
+  flex: 1;                
 }
 
 /* GRÁFICO */
 .grafico-lateral {
-  flex: 0.8;              /* deixa o gráfico um pouco menor */
+  flex: 0.8;              
   max-width: 500px;
 }
 
-/* Garante que o Flourish não estoure */
+
 .grafico-lateral .flourish-embed,
 .grafico-lateral iframe {
   width: 100% !important;
   max-width: 100% !important;
 }
+
